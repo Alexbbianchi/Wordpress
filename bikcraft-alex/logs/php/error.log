@@ -1,0 +1,12 @@
+[03-Sep-2020 00:25:42 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Freemius' not found in C:\Users\alexb\Local Sites\bikcraft-alex\app\public\wp-includes\class-wp-hook.php on line 287
+[03-Sep-2020 00:25:42 UTC] PHP Stack trace:
+[03-Sep-2020 00:25:42 UTC] PHP   1. {main}() C:\Users\alexb\Local Sites\bikcraft-alex\app\public\wp-admin\admin-ajax.php:0
+[03-Sep-2020 00:25:42 UTC] PHP   2. do_action() C:\Users\alexb\Local Sites\bikcraft-alex\app\public\wp-admin\admin-ajax.php:176
+[03-Sep-2020 00:25:42 UTC] PHP   3. WP_Hook->do_action() C:\Users\alexb\Local Sites\bikcraft-alex\app\public\wp-includes\plugin.php:478
+[03-Sep-2020 00:25:42 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\alexb\Local Sites\bikcraft-alex\app\public\wp-includes\class-wp-hook.php:311
+[03-Sep-2020 00:25:42 UTC] PHP   5. wp_ajax_delete_plugin() C:\Users\alexb\Local Sites\bikcraft-alex\app\public\wp-includes\class-wp-hook.php:287
+[03-Sep-2020 00:25:42 UTC] PHP   6. delete_plugins() C:\Users\alexb\Local Sites\bikcraft-alex\app\public\wp-admin\includes\ajax-actions.php:4572
+[03-Sep-2020 00:25:42 UTC] PHP   7. uninstall_plugin() C:\Users\alexb\Local Sites\bikcraft-alex\app\public\wp-admin\includes\plugin.php:965
+[03-Sep-2020 00:25:42 UTC] PHP   8. do_action() C:\Users\alexb\Local Sites\bikcraft-alex\app\public\wp-admin\includes\plugin.php:1283
+[03-Sep-2020 00:25:42 UTC] PHP   9. WP_Hook->do_action() C:\Users\alexb\Local Sites\bikcraft-alex\app\public\wp-includes\plugin.php:478
+[03-Sep-2020 00:25:42 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\alexb\Local Sites\bikcraft-alex\app\public\wp-includes\class-wp-hook.php:311
